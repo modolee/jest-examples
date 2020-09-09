@@ -1,5 +1,5 @@
-import {initializeCityDatabase, isCity} from "./city.service";
-import { initializeFoodDatabase, isValidCityFoodPair } from "./food.service";
+import {initializeCityDatabase, isCity} from "../src/city.service";
+import { initializeFoodDatabase, isValidCityFoodPair } from "../src/food.service";
 
 beforeEach(() => {
   return initializeCityDatabase();

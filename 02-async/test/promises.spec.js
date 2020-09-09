@@ -1,4 +1,4 @@
-import {fetchDataPromise, fetchDataThrowError} from "./fetch";
+import {fetchDataPromise, fetchDataThrowError} from "../src/fetch";
 
 describe('Promises then/catch', () => {
   test('the data is peanut butter', () => {

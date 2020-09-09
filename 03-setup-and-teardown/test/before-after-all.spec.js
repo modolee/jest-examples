@@ -1,4 +1,4 @@
-import {clearCityDatabase, initializeCityDatabase, isCity} from "./city.service";
+import {clearCityDatabase, initializeCityDatabase, isCity} from "../src/city.service";
 
 beforeAll(() => {
   return initializeCityDatabase();

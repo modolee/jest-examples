@@ -1,4 +1,4 @@
-import { fetchDataCallback } from "./fetch";
+import { fetchDataCallback } from "../src/fetch";
 
 describe('Callbacks', () => {
   // Don't do this!
