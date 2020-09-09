@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose --forceExit",
+    "test:watch": "jest --verbose --watch"
   },
   "repository": "https://github.com/modolee/jest-examples.git",
   "author": "이성일 <modolee.si@gmail.com>",
